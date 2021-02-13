@@ -1,0 +1,28 @@
+﻿@page
+@model LabUno.Web.Pages.EliminarPrestamoModel
+@{
+}
+<center><h1>Desea Eliminar este Registro?</h1></center>
+<br />
+<br />
+<form method="post">
+    <input type="hidden" asp-for="Prestamo.Id" />
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label asp-for="Prestamo.CodigoEstudiante">CodigoEstudiante</label>
+        <input type="text" class="form-control" asp-for="Prestamo.CodigoEstudiante" placeholder="Ingrese su CodigoEstudiante">
+        <span class="text-danger" asp-validation-for="Prestamo.CodigoEstudiante"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Prestamo.CodigoLibro">CodigoLibro</label>
+        <input type="text" class="form-control" asp-for="Prestamo.CodigoLibro" placeholder="Ingrese su CodigoLibro">
+        <span class="text-danger" asp-validation-for="Prestamo.CodigoLibro"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Prestamo.Fecha">Fecha</label>
+        <input type="text" class="form-control" asp-for="Prestamo.Fecha" placeholder="Ingrese su Fecha">
+        <span class="text-danger" asp-validation-for="Prestamo.Fecha"></span>
+    </div>
+    <button type="submit" class="btn btn-danger">Eliminar</button><br />
+    <a asp-page="/Prestamos">Regresar a Prestamos</a>
+</form>

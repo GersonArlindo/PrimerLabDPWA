@@ -399,3 +399,6 @@ C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Web\obj\Debug\net5.0\Razor\Pa
 C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Web\obj\Debug\net5.0\Razor\Pages\Prestamos.cshtml.g.cs
 C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Web\obj\Debug\net5.0\Razor\Pages\EditarPrestamo.cshtml.g.cs
 C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Web\obj\Debug\net5.0\Razor\Pages\CrearPrestamo.cshtml.g.cs
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Web\obj\Debug\net5.0\Razor\Pages\EliminarLibro.cshtml.g.cs
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Web\obj\Debug\net5.0\Razor\Pages\EliminarEstudiante.cshtml.g.cs
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Web\obj\Debug\net5.0\Razor\Pages\EliminarPrestamo.cshtml.g.cs

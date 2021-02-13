@@ -36,7 +36,7 @@
                 }
             </td>
             <td><a class="btn btn-sm btn-info" asp-area="" asp-page="/EditarLibro" asp-route-id="@item.Id">Editar</a></td>
-            <td><a class="btn btn-sm btn-danger" asp-area="" asp-controller="libro" asp-action="delete" asp-route-id="@item.Id">Eliminar</a></td>
+            <td><a class="btn btn-sm btn-danger" asp-area="" asp-page="/EliminarLibro" asp-route-id="@item.Id">Eliminar</a></td>
         </tr>
         }
     </tbody>

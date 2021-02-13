@@ -1,0 +1,31 @@
+﻿@page
+@model LabUno.Web.Pages.EliminarLibroModel
+@{
+}
+<center><h1>Desea Eliminar este Registro?</h1></center> <br /><br />
+<form method="post">
+    <input type="hidden" asp-for="Libro.Id" />
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label asp-for="Libro.Isbn">ISBN</label>
+        <input type="text" class="form-control" asp-for="Libro.Isbn">
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Titulo">TITULO</label>
+        <input type="text" class="form-control" asp-for="Libro.Titulo">
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Autor">AUTOR</label>
+        <input type="text" class="form-control" asp-for="Libro.Autor">
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Editorial">EDITORIAL</label>
+        <input type="text" class="form-control" asp-for="Libro.Editorial">
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Disponible">DISPONIBLE</label>
+        <input type="checkbox" class="form-control" asp-for="Libro.Disponible" >
+    </div>
+    <button type="submit" class="btn btn-danger">Eliminar</button><br />
+    <a asp-page="/Libros">Regresar a Libros</a>
+</form>
