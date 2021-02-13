@@ -1,0 +1,30 @@
+﻿@page
+@model LabUno.Web.Pages.PrestamosModel
+@{
+}
+<h1>Listado de Prestamos</h1>
+<a class="btn btn-sm btn-success" asp-page="/CrearPrestamo">Ingresar Prestamo</a>
+<br />
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Codigo del Estudiante</th>
+            <th>Codigo del Libro</th>
+            <th>Fecha</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Prestamos)
+        {
+            <tr>
+                <td>@item.CodigoEstudiante</td>
+                <td>@item.CodigoLibro</td>
+                <td>@item.Fecha</td>
+                <td><a class="btn btn-sm btn-info" asp-area="" asp-page="/EditarPrestamo" asp-route-id="@item.Id">Editar</a></td>
+                <td><a class="btn btn-sm btn-danger" asp-area="" asp-controller="libro" asp-action="delete" asp-route-id="@item.Id">Eliminar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

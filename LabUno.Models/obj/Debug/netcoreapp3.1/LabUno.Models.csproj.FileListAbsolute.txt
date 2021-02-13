@@ -1,0 +1,9 @@
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\bin\Debug\netcoreapp3.1\LabUno.Models.deps.json
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\bin\Debug\netcoreapp3.1\LabUno.Models.dll
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\bin\Debug\netcoreapp3.1\LabUno.Models.pdb
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\obj\Debug\netcoreapp3.1\LabUno.Models.csprojAssemblyReference.cache
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\obj\Debug\netcoreapp3.1\LabUno.Models.AssemblyInfoInputs.cache
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\obj\Debug\netcoreapp3.1\LabUno.Models.AssemblyInfo.cs
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\obj\Debug\netcoreapp3.1\LabUno.Models.csproj.CoreCompileInputs.cache
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\obj\Debug\netcoreapp3.1\LabUno.Models.dll
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Models\obj\Debug\netcoreapp3.1\LabUno.Models.pdb

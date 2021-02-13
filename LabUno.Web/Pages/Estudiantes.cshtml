@@ -1,0 +1,32 @@
+﻿@page
+@model LabUno.Web.Pages.EstudiantesModel
+@{
+}
+<h1>Listado de Estudiantes.</h1>
+<a class="btn btn-sm btn-success" asp-page="/CrearEstudiante">Ingresar Estudiante</a>
+<br />
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Direccion</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Estudiantes)
+        {
+            <tr>
+                <td>@item.Codigo</td>
+                <td>@item.Nombre</td>
+                <td>@item.Apellido</td>
+                <td>@item.Direccion</td>
+                <td><a class="btn btn-sm btn-info" asp-area="" asp-page="/EditarEstudiante" asp-route-id="@item.Id">Editar</a></td>
+                <td><a class="btn btn-sm btn-danger" asp-area="" asp-controller="libro" asp-action="delete" asp-route-id="@item.Id">Eliminar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

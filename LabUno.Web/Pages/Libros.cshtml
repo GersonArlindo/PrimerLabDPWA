@@ -1,0 +1,43 @@
+﻿@page
+@model LabUno.Web.Pages.LibrosModel
+@{
+}
+
+<h1>Listado de Libros</h1>
+<a class="btn btn-sm btn-success" asp-page="/CrearLibro">Ingresar Libro</a>
+<br /> <br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ISBN</th>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Editorial</th>
+            <th>Disponible</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Libros)
+        {
+        <tr>
+            <td>@item.Isbn</td>
+            <td>@item.Titulo</td>
+            <td>@item.Autor</td>
+            <td>@item.Editorial</td>
+            <td>
+                @if (@item.Disponible)
+                {
+                    <p>SI</p>
+                }
+                else
+                {
+                    <p>NO</p>
+                }
+            </td>
+            <td><a class="btn btn-sm btn-info" asp-area="" asp-page="/EditarLibro" asp-route-id="@item.Id">Editar</a></td>
+            <td><a class="btn btn-sm btn-danger" asp-area="" asp-controller="libro" asp-action="delete" asp-route-id="@item.Id">Eliminar</a></td>
+        </tr>
+        }
+    </tbody>
+</table>

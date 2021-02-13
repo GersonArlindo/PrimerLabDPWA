@@ -1,0 +1,35 @@
+﻿@page
+@model LabUno.Web.Pages.EditarLibroModel
+@{
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Libro.Id"/>
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label asp-for="Libro.Isbn">ISBN</label>
+        <input type="text" class="form-control" asp-for="Libro.Isbn" placeholder="Ingrese su ISBN">
+        <span class="text-danger" asp-validation-for="Libro.Isbn"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Titulo">TITULO</label>
+        <input type="text" class="form-control" asp-for="Libro.Titulo" placeholder="Ingrese su Titulo">
+        <span class="text-danger" asp-validation-for="Libro.Titulo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Autor">AUTOR</label>
+        <input type="text" class="form-control" asp-for="Libro.Autor" placeholder="Ingrese su Autor">
+        <span class="text-danger" asp-validation-for="Libro.Autor"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Editorial">EDITORIAL</label>
+        <input type="text" class="form-control" asp-for="Libro.Editorial" placeholder="Ingrese su Editorial">
+        <span class="text-danger" asp-validation-for="Libro.Editorial"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Libro.Disponible">DISPONIBLE</label>
+        <input type="checkbox" class="form-control" asp-for="Libro.Disponible">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button><br />
+    <a asp-page="/Estudiantes">Regresar a Estudiantes</a>
+</form>

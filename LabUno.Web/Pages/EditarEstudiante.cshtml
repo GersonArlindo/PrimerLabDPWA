@@ -1,0 +1,30 @@
+﻿@page
+@model LabUno.Web.Pages.EditarEstudianteModel
+@{
+}
+<form method="post">
+    <input type="hidden" asp-for="Estudiante.Id" />
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Codigo">Codigo</label>
+        <input type="text" class="form-control" asp-for="Estudiante.Codigo" placeholder="Ingrese su Codigo">
+        <span class="text-danger" asp-validation-for="Estudiante.Codigo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Nombre">Nombre</label>
+        <input type="text" class="form-control" asp-for="Estudiante.Nombre" placeholder="Ingrese su Nombre">
+        <span class="text-danger" asp-validation-for="Estudiante.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Apellido">Apellido</label>
+        <input type="text" class="form-control" asp-for="Estudiante.Apellido" placeholder="Ingrese su Apellido">
+        <span class="text-danger" asp-validation-for="Estudiante.Apellido"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Direccion">Direccion</label>
+        <input type="text" class="form-control" asp-for="Estudiante.Direccion" placeholder="Ingrese su Direccion">
+        <span class="text-danger" asp-validation-for="Estudiante.Direccion"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button><br />
+    <a asp-page="/Libros">Regresar a Libros</a>
+</form>

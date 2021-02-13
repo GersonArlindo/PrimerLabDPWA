@@ -1,0 +1,12 @@
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\bin\Debug\netcoreapp3.1\LabUno.Models.dll
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\obj\Debug\netcoreapp3.1\LabUno.Data.csprojAssemblyReference.cache
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\obj\Debug\netcoreapp3.1\LabUno.Data.AssemblyInfoInputs.cache
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\obj\Debug\netcoreapp3.1\LabUno.Data.AssemblyInfo.cs
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\bin\Debug\netcoreapp3.1\LabUno.Data.deps.json
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\bin\Debug\netcoreapp3.1\LabUno.Data.dll
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\bin\Debug\netcoreapp3.1\LabUno.Data.pdb
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\bin\Debug\netcoreapp3.1\LabUno.Models.pdb
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\obj\Debug\netcoreapp3.1\LabUno.Data.csproj.CoreCompileInputs.cache
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\obj\Debug\netcoreapp3.1\LabUno.Data.csproj.CopyComplete
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\obj\Debug\netcoreapp3.1\LabUno.Data.dll
+C:\Users\Gerson Arlindo\source\repos\LabUno\LabUno.Data\obj\Debug\netcoreapp3.1\LabUno.Data.pdb
